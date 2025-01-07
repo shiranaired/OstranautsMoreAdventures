@@ -1,0 +1,314 @@
+
+[
+    {
+      "strName" : "CGEncFriendInNeedIntro",
+      "strTitle" : "Friend In Need",
+      "strDesc" : "One of your shipbreaking friends working at Ayotimiwa was injured when their drunk manager crashed into K-Leg Station at full speed! Your friend barely escaped with their life, but Ayotimiwa doesn't supply any health benefits (or any benefits at all, really) to their lower ranked workers. The manager got off scot-free and took an all expense paid vacation to Venus for \"medical leave\". \n \nYour friend can't afford nanite treatment, so they seek out help from an old med tech. You could help...",
+      "CTTestUs" : "TNotIsImprisoned",
+      "aInverse"          : [
+        "CGEncFriendInNeedNothing",
+        "CGEncFriendInNeedNurse",
+        "CGEncFriendInNeedBlood",
+        "CGEncFriendInNeedWorkOut",
+        "CGEncFriendInNeedRevenge"
+      ],
+      "LootCTsUs" : "",
+      "fDuration"         : 0.0,
+      "LootCondsUs"         : null,
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncFriendInNeedNothing",
+      "strTitle" : "Do Nothing",
+      "strDesc" : "You're barely getting by as it is and can't afford to let this distract you from work. Your friend retires from shipbreaking, and you spend the year wondering if there was something more you could have done.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncFriendInNeedNothing",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncFriendInNeedNurse",
+      "strTitle" : "Take care of them",
+      "strDesc" : "You visit your friend every day after work, helping however you can. It's hard work, but your friend recovers enough to continue shipbreaking, albeit with a limp. \n\n It's not much, but they offer you their lucky crowbar. Hopefully, it will work better for you than it did them.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncFriendInNeedNurse",
+      "strThemType"       : "Self",
+      "aSocialNew" : [
+        "CGEncShipbreakerFriend"
+      ],
+      "aLootItms" : [
+        "addus,ItmEncFriendInNeedNurse"
+      ]
+    },
+    {
+      "strName" : "CGEncFriendInNeedBlood",
+      "strTitle" : "Donate Blood",
+      "strDesc" : "Numerous shards of lead shrapnel were embedded into you friend. The med tech gradually removes them but needs blood from a compatible donor to stave off lead poisoning. Fortunately, you and your friend share the same blood type! \n\nYou spend the year donating as much blood as you can. Your friend makes a full recovery, and the constant blood donations forces your body to produce more blood than ever before!\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncFriendInNeedBlood",
+      "strThemType"       : "Self",
+      "aSocialNew" : [
+        "CGEncShipbreakerFriend"
+      ]
+    },
+    {
+      "strName" : "CGEncFriendInNeedWorkOut",
+      "strTitle" : "Take better care of yourself",
+      "strDesc" : "Your friend's near-death experience forces you to reflect on your own health. You start exercising at home, using scrap metal as weights to build up your strength. You quickly give up on improving your diet - you would need to be paid at least twice as much for better food!\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncFriendInNeedWorkOut",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncFriendInNeedRevenge",
+      "strTitle" : "Get revenge",
+      "strDesc" : "You and your friend spend several months plotting revenge. Eventually, you eventually settle on a plan that involves you sneaking into the manager's office. Once you get inside, you find the whole room is filled with expensive paraphernalia and knickknacks. You find yourself thinking \"That's a nice everything you have in here. It would be a shame if something were to happen to it...\" \n\nOn your way out, you grab whatever's not broken to sell.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncFriendInNeedRevenge",
+      "strThemType"       : "Self",
+      "aSocialNew" : [
+        "CGEncHomeworldManagerEnemy"
+      ]
+    },
+    {
+      "strName" : "CGEncScientistIntro",
+      "strTitle" : "Frenzied Scientist",
+      "strDesc" : "You are approached by a frenzied K-LEG scientist, who yells, \"I'm going to put my quantum harmonizer in your photonic resonation chamber!\" \n\nWhat's your response?",
+      "CTTestUs" : "TNotIsImprisoned",
+      "aInverse"          : [
+        "CGEncScientistScience",
+        "CGEncScientistSpeech",
+        "CGEncScientistMelee",
+        "CGEncScientistSneak"
+      ],
+      "LootCTsUs" : "",
+      "fDuration"         : 0.0,
+      "LootCondsUs"         : null,
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncScientistScience",
+      "strTitle" : "Parabolic Destabilization",
+      "strDesc" : "You say \"But doctor, wouldn't that cause a parabolic destabilization of the fission singularity?\" The scientist replies \"Huh, I never considered the possibility of that.\" He thanks you for your time and hands you his quantum harmonizer before dashing off.\n\nYou sell the device as quickly as you can. Who knows what it actually does?\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncScientistScience",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncScientistSpeech",
+      "strTitle" : "\"Yeah? Up yours too, buddy!\"",
+      "strDesc" : "You reply \"Yeah? Up yours too, buddy!\" The scientist blasts you with a laser and runs away cackling.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncScientistSpeech",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncScientistMelee",
+      "strTitle" : "Attack him",
+      "strDesc" : "You say nothing, grab a nearby pipe and hit the scientist in the head to knock him out. For all you knew, he was planning to blow up the station.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncScientistMelee",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncScientistSneak",
+      "strTitle" : "Sneak away",
+      "strDesc" : "You say nothing, but slip away before the scientist can continue his rant.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncScientistSneak",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTwunklesIntro",
+      "strTitle" : "Twunkles",
+      "strDesc" : "On your way home from work, you stumble upon a secret stash of Twunkles©! These cream-filled treats were famous for their realistic simulated cake taste and unlimited shelf life. \n\nUnfortunately, production stopped after an incident where a man who subsisted solely on Twunkles© died and was found preserved in perfect condition by Twunkle© preservatives. It's said that the parent company suspended the product but was later acquired by Trenchers. \n\nWhat will you do with these little snickety snooks?",
+      "CTTestUs" : "TNotIsImprisoned",
+      "aInverse"          : [
+        "CGEncTwunklesGorge",
+        "CGEncTwunklesSell",
+        "CGEncTwunklesRats",
+        "CGEncTwunklesReturn"
+      ],
+      "LootCTsUs" : "",
+      "fDuration"         : 0.0,
+      "LootCondsUs"         : null,
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTwunklesGorge",
+      "strTitle" : "Gorge yourself on them",
+      "strDesc" : "What safer place for this veritable trove of treasures than your stomach? You rip open the packages and savor the flavor, moist cake and soft sweet cream as fresh as the day they were produced several hundred years ago. \n\nAn hour later, you've made it through the whole pile. You spend the next couple days becoming friends with your toilet. \n\nWould you do it again? Not likely. Worth it? Yes.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTwunklesGorge",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTwunklesSell",
+      "strTitle" : "Sell them secretly",
+      "strDesc" : "A rumor here, a whisper there, and you quickly get a couple of buyers for your stash. You keep the deals on the down low - the selling of food is strictly prohibited by the station's non-compete contract with a supplier. \n\nYou don't get quite as much as you wanted, but it's quick, easy money.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTwunklesSell",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTwunklesRats",
+      "strTitle" : "Feed them to the rats",
+      "strDesc" : "You take the snacks home. Over the next few months, you leave Twunkle© crumbs in the vent above your bed and eventually befriend a rat. You name it Fleek. \n\nFleek starts bringing you various electronic parts. You don't know where they came from, but you use the opportunity to learn how to wire and solder. Eventually, you overhear a technician complaining about rodents chewing through several gas pump control boards. From that day on, the vent above your bed remains empty save for a single Twunkle© crumb.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTwunklesRats",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTwunklesReturn",
+      "strTitle" : "Return them to their owner",
+      "strDesc" : "You do your best to track down the owner. \"Wow, I remember these!\" they say. \"I hid these when I was kid but forget where they were.\" The owner gives you one of their tools as thanks.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTwunklesReturn",
+      "strThemType"       : "Self",
+      "aSocialNew" : [
+        "CGEncShipbreakerFriend"
+      ],
+      "aLootItms" : [
+        "addus,ItmEncTwunkleReturn"
+      ]
+    },
+    {
+      "strName" : "CGEncTasteTestIntro",
+      "strTitle" : "Taste Testing",
+      "strDesc" : "A company called \"Brave New World, LLC\" is testing several food products, and you've been selected to try one of their products! You would feel hesitant after signing a 400 page non-disclosure agreement, but the eye-watering sum of money you're being offered has you throwing caution to the wind. \n\nThere are several products to try out, but you can only pick one. You choose:",
+      "CTTestUs" : "TNotIsImprisoned",
+      "aInverse"          : [
+        "CGEncTasteTestPudding",
+        "CGEncTasteTestBacon",
+        "CGEncTasteTestRolls",
+        "CGEncTasteTestPie",
+        "CGEncTasteTestEverything"
+      ],
+      "LootCTsUs" : "",
+      "fDuration"         : 0.0,
+      "LootCondsUs"         : null,
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTasteTestPudding",
+      "strTitle" : "Smart Pudding",
+      "strDesc" : "A scientist in a lab coat brings you a bowl of chocolate(?) pudding and places a large metal device on your head. As you eat your first spoonful, you feel your mind filling with information. \"This pudding fills its eaters with all sorts of knowledge,\" explains the scientist. \"Please let me know if you feel any discomfort.\" You notice your head hurting after the fifth bite and pause your eating, but it's too late. The pain increases exponentially is a wealth of facts fills your head. You black out. \n\nYou wake up in your bed with no memory of the event, but find a bit of money has been added to your account. Are those stitches in the back of your head?\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTasteTestPudding",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTasteTestBacon",
+      "strTitle" : "Night Bacon",
+      "strDesc" : "A scientist in a lab coat brings you a slice of bacon. \"A number of our clients have developed insomnia from their...medicine,\" says the scientist. \"We've developed an edible sleep aid, which we call 'Night Bacon'.\" You raise an eyebrow, but take a bite of the bacon. You barely make it past the salty, fatty flavors before you fall unconscious. \n\nYou wake up in bed, unsure of what happened. Checking your PDA, you see that an entire month has gone by while you were asleep. There's a message from your manager saying \"I heard about your accident. Don't worry - some men came by with a briefcase full of 'explanations'. I'll see you back at work when you wake up, whenever that is.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTasteTestBacon",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTasteTestRolls",
+      "strTitle" : "Hypo-allergenic dinner rolls",
+      "strDesc" : "A scientist in a lab coat brings you a small, fluffy dinner roll. \"This bread was made without any allergens, making it enjoyable by everyone,\" the scientist says. As soon as you take your first bite, you feel a burning in your ears, which swell to twice their size. The scientist rushes over to you with a syringe (why were they holding one?) and inject it into your arm as you start to panic. You quickly fall asleep and wake up some time later in your bed. You find some money has been added to your account. \n\nIt might just be your imagination, but the humming from your refrigerator seems louder than before...\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTasteTestRolls",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTasteTestPie",
+      "strTitle" : "Humble Pie",
+      "strDesc" : "A scientist in a lab coat brings you slice of pie. \"This is pie,\" the scientist says. It's pretty good. The scientist offers you double the amount of money for testing their product, but you turn it down. You go home.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTasteTestPie",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncTasteTestEverything",
+      "strTitle" : "Everything",
+      "strDesc" : "A scientist comes out wearing a gas mask and holding a spray bottle. \"This is our appetite stimulant,\" they say and spray you with a small puff. You don't know what comes over you, but your appetite becomes all-consuming. There is only food and you. You vaguely register shouting in the back of your mind as you sweep through the testing facility, eating everything in sight... \n\nAt some point, you blacked out and only now awaken. You have no memory of any food testing and only vaguely remember where you were today. As you pass the TV's, you hear a breaking news report about someone going on a rampage and destroying a good chunk of K-Leg. Good thing you weren't there.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncTasteTestEverything",
+      "strThemType"       : "Self",
+      "aSocialNew" : [
+        "CGEncHomeworldLEOEnemy"
+      ]
+    },
+    {
+      "strName" : "CGEncInheritanceIntro",
+      "strTitle" : "Frenzied Scientist",
+      "strDesc" : "Your father's sister-in-law's uncle's great grandhamster just passed. You remember playing with it during your childhood and tear up when a lawyer comes to present you inheritance  from its will. \n\nWhat do you do with the money?",
+      "CTTestUs" : "TNotIsImprisoned",
+      "aInverse"          : [
+        "CGEncInheritanceGambleSuccess",
+        "CGEncInheritanceGambleFail",
+        "CGEncInheritanceSave",
+        "CGEncInheritanceBuy",
+        "CGEncInheritanceFun",
+        "CGEncInheritanceFriends"
+      ],
+      "LootCTsUs" : "",
+      "fDuration"         : 0.0,
+      "LootCondsUs"         : null,
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncInheritanceGambleFail",
+      "strTitle" : "Try to win more in poker",
+      "strDesc" : "You take your inheritance  to the local bar and lay it out on a few rounds of poker. Almost doubling your money has you feeling good, especially with a full house in hand. You go all in...and lose to four-of-a-kind. Oh well, at least you didn't add too much of your own savings...\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceGambleFail",
+      "CTTestUs"        : "CTBluffFailTestReq",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncInheritanceGambleSuccess",
+      "strTitle" : "Try to win more in poker",
+      "strDesc" : "You take your inheritance  to the local bar and lay it out on a few rounds of poker. Almost doubling your money has you feeling good, especially with a full house in hand. You go all in...and win against two pairs! Time to get out before you lose it all!\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceGambleSuccess",
+      "CTTestUs"        : "CTBluffFailTestForb",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncInheritanceSave",
+      "strTitle" : "Save it for a rainy day",
+      "strDesc" : "You squirrel the money away for a rainy day. What's rain? Who knows, but you feel good about the extra savings.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceSave",
+      "strThemType"       : "Self"
+    },
+    {
+      "strName" : "CGEncInheritanceBuy",
+      "strTitle" : "Buy some equipment",
+      "strDesc" : "You use this chance to invest in some cargo webs you've been eying. Your friend sells them to you for cheap. That's one step closer to your dream job!\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceBuy",
+      "strThemType"       : "Self",
+      "aLootItms" : [
+        "addus,ItmEncInheritanceBuy"
+      ]
+    },
+    {
+      "strName" : "CGEncInheritanceFun",
+      "strTitle" : "Have some fun!",
+      "strDesc" : "You blow your inheritance at a club. Is it responsible? No, but who cares? Between the alcohol and the music, you dance like there's no tomorrow and even make a (drunk) new friend. YOLO BABY!\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceFun",
+      "aSocialNew" : [
+        "CGEncRandomAdultFriend"
+      ],
+      "strThemType"       : "Self",
+      "aLootItms" : [
+        "addus,ItmEncInheritanceFun"
+      ]
+    },
+    {
+      "strName" : "CGEncInheritanceFriends",
+      "strTitle" : "Treat your friends to dinner",
+      "strDesc" : "Your grandfather once told you \"We're defined in life by how we're remembered once we're gone.\" Keeping this in mind, you buy a delicious dinner for your friends. There was even enough money to afford real meat! \n\nEveryone has a great time, and your friends even surprise you with a present. You sleep that night filled with love and warm fuzzies.\n\n",
+      "fDuration"         : 0.0,
+      "LootCTsUs" : "CGEncInheritanceFriends",
+      "strThemType"       : "Self",
+      "aLootItms" : [
+        "addus,ItmEncInheritanceFriends"
+      ]
+    }
+]
