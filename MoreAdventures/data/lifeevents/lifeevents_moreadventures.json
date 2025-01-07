@@ -1,0 +1,237 @@
+[
+  {
+    "strName" : "CGEncFriendInNeedIntro",
+    "strInteraction" : "CGEncFriendInNeedIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncFriendInNeedNothing",
+    "strInteraction" : "CGEncFriendInNeedNothing",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncFriendInNeedNurse",
+    "strInteraction" : "CGEncFriendInNeedNurse",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncFriendInNeedBlood",
+    "strInteraction" : "CGEncFriendInNeedBlood",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncFriendInNeedWorkOut",
+    "strInteraction" : "CGEncFriendInNeedWorkOut",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncFriendInNeedRevenge",
+    "strInteraction" : "CGEncFriendInNeedRevenge",
+    "fCashRewardMin" : 200.0,
+    "fCashRewardMax" : 400.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncScientistIntro",
+    "strInteraction" : "CGEncScientistIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncScientistScience",
+    "strInteraction" : "CGEncScientistScience",
+    "fCashRewardMin" : 400.0,
+    "fCashRewardMax" : 600.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncScientistSpeech",
+    "strInteraction" : "CGEncScientistSpeech",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncScientistMelee",
+    "strInteraction" : "CGEncScientistMelee",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncScientistSneak",
+    "strInteraction" : "CGEncScientistSneak",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTwunklesIntro",
+    "strInteraction" : "CGEncTwunklesIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTwunklesGorge",
+    "strInteraction" : "CGEncTwunklesGorge",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTwunklesSell",
+    "strInteraction" : "CGEncTwunklesSell",
+    "fCashRewardMin" : 400.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTwunklesRats",
+    "strInteraction" : "CGEncTwunklesRats",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTwunklesReturn",
+    "strInteraction" : "CGEncTwunklesReturn",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestIntro",
+    "strInteraction" : "CGEncTasteTestIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestPudding",
+    "strInteraction" : "CGEncTasteTestPudding",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestBacon",
+    "strInteraction" : "CGEncTasteTestBacon",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestRolls",
+    "strInteraction" : "CGEncTasteTestRolls",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestPie",
+    "strInteraction" : "CGEncTasteTestPie",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncTasteTestEverything",
+    "strInteraction" : "CGEncTasteTestEverything",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceIntro",
+    "strInteraction" : "CGEncInheritanceIntro",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceGambleFail",
+    "strInteraction" : "CGEncInheritanceGambleFail",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceGambleSuccess",
+    "strInteraction" : "CGEncInheritanceGambleSuccess",
+    "fCashRewardMin" : 2000.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceSave",
+    "strInteraction" : "CGEncInheritanceSave",
+    "fCashRewardMin" : 400.0,
+    "fCashRewardMax" : 600.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceBuy",
+    "strInteraction" : "CGEncInheritanceBuy",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceFun",
+    "strInteraction" : "CGEncInheritanceFun",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  },
+  {
+    "strName" : "CGEncInheritanceFriends",
+    "strInteraction" : "CGEncInheritanceFriends",
+    "fCashRewardMin" : 0.0,
+    "fStartATCRange" : 0.0,
+    "strStartATC" : "",
+    "strShipRewards" : ""
+  }
+]
