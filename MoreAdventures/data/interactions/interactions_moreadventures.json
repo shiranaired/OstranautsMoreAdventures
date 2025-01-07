@@ -3,7 +3,7 @@
     {
       "strName" : "CGEncFriendInNeedIntro",
       "strTitle" : "Friend In Need",
-      "strDesc" : "One of your shipbreaking friends working at Ayotimiwa was injured when their drunk manager crashed into K-Leg Station at full speed! Your friend barely escaped with their life, but Ayotimiwa doesn't supply any health benefits (or any benefits at all, really) to their lower ranked workers. The manager got off scot-free and took an all expense paid vacation to Venus for \"medical leave\". \n \nYour friend can't afford nanite treatment, so they seek out help from an old med tech. You could help...",
+      "strDesc" : "One of your shipbreaking friends working at Ayotimiwa was injured when their drunk manager crashed into K-Leg Station at full speed! Your friend barely escaped with their life, but Ayotimiwa doesn't supply any health benefits (or any benefits at all, really) to their lower-ranked workers. The manager got off scot-free and took an all expense paid vacation to Venus for \"medical leave\". \n\nYour friend can't afford nanite treatment, so they seek out help from an old med tech. You could help...",
       "CTTestUs" : "TNotIsImprisoned",
       "aInverse"          : [
         "CGEncFriendInNeedNothing",
@@ -42,7 +42,7 @@
     {
       "strName" : "CGEncFriendInNeedBlood",
       "strTitle" : "Donate Blood",
-      "strDesc" : "Numerous shards of lead shrapnel were embedded into you friend. The med tech gradually removes them but needs blood from a compatible donor to stave off lead poisoning. Fortunately, you and your friend share the same blood type! \n\nYou spend the year donating as much blood as you can. Your friend makes a full recovery, and the constant blood donations forces your body to produce more blood than ever before!\n\n",
+      "strDesc" : "Numerous shards of lead shrapnel were embedded into your friend. The med tech gradually removes them but needs blood from a compatible donor to stave off lead poisoning. Fortunately, you and your friend share the same blood type! \n\nYou spend the year donating as much blood as you can. Your friend makes a full recovery, and the constant blood donations forces your body to produce more blood than ever before!\n\n",
       "fDuration"         : 0.0,
       "LootCTsUs" : "CGEncFriendInNeedBlood",
       "strThemType"       : "Self",
@@ -174,7 +174,7 @@
     {
       "strName" : "CGEncTasteTestIntro",
       "strTitle" : "Taste Testing",
-      "strDesc" : "A company called \"Brave New World, LLC\" is testing several food products, and you've been selected to try one of their products! You would feel hesitant after signing a 400 page non-disclosure agreement, but the eye-watering sum of money you're being offered has you throwing caution to the wind. \n\nThere are several products to try out, but you can only pick one. You choose:",
+      "strDesc" : "A company called \"Brave New World, LLC\" is testing several food products, and you've been selected to try one of them! You would feel hesitant after signing a 400 page non-disclosure agreement, but the eye-watering sum of money you're being offered has you throwing caution to the wind. \n\nThere are several products to try out, but you can only pick one. You choose:",
       "CTTestUs" : "TNotIsImprisoned",
       "aInverse"          : [
         "CGEncTasteTestPudding",
@@ -233,8 +233,8 @@
     },
     {
       "strName" : "CGEncInheritanceIntro",
-      "strTitle" : "Frenzied Scientist",
-      "strDesc" : "Your father's sister-in-law's uncle's great grandhamster just passed. You remember playing with it during your childhood and tear up when a lawyer comes to present you inheritance  from its will. \n\nWhat do you do with the money?",
+      "strTitle" : "Inheritance",
+      "strDesc" : "Your father's sister-in-law's uncle's great grandhamster just passed. You remember playing with it during your childhood and tear up when a lawyer comes to present you inheritance from its will. \n\nWhat do you do with the money?",
       "CTTestUs" : "TNotIsImprisoned",
       "aInverse"          : [
         "CGEncInheritanceGambleSuccess",
