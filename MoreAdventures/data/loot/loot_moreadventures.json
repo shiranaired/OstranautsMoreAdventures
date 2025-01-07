@@ -1,0 +1,310 @@
+[
+  {
+    "strName" : "CGEncFriendInNeedNothing",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsPessimist=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncFriendInNeedNurse",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsLoyal=1.0x1",
+      "TUpSkillMedicalDiagnostics=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncFriendInNeedBlood",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsKind=1.0x1",
+      "TDnIsHypovolemic2=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncFriendInNeedWorkOut",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsSelfish=1.0x1",
+      "TUpIsFit=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncFriendInNeedRevenge",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsVengeful=1.0x1",
+      "TUpSkillIntrusion=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncScientistScience",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillSciencePhysics=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncScientistSpeech",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsCharismatic=1.0x1"
+      ],
+    "aLoots"  : [
+      "CTEncRandomInjuryBurn=1.0x1"
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncScientistMelee",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillMeleeArmed=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncScientistSneak",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillStealth=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncShipbreakerEvent",
+    "aCOs"    : [
+      "CGEncRichSchmuckIntro=0.08x1|CGEncCrackdownIntro=0.08x1|CGEncPodDisasterIntro=0.09x1|CGEncDailyGrindIntro=0.09x1|CGEncRareSalvageIntro=0.09x1|CGEncTestIntro=0.08x1|CGEncPokerGameIntro=0.07x1|CGEncShadyDealIntro=0.09x1|CGEncFriendInNeedIntro=0.08x1|CGEncScientistIntro=0.01x1|CGEncTwunklesIntro=0.08x1|CGEncTasteTestIntro=0.08x1|CGEncInheritanceIntro=0.08x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "lifeevent"
+  },
+  {
+    "strName" : "ItmEncFriendInNeedNurse",
+    "aCOs"    : [
+      "ItmToolCrowbar01=1.0x1"
+    ],
+    "aLoots"  : [      
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "CGEncTwunklesGorge",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsGlutton=1.0x1",
+      "TUpIsIronStomach=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTwunklesSell",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsAmbitious=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTwunklesRats",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillEngElectronic=1.0x1",
+      "TUpSkillAnimalHandling=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTwunklesReturn",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsHonest=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "ItmEncTwunkleReturn",
+    "aCOs"    : [
+      "ItmToolDrill01=1.0x1"
+    ],
+    "aLoots"  : [      
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "CGEncTasteTestPudding",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillNavigationSpace=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTasteTestBacon",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsSleeperHeavy=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTasteTestRolls",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsSharpHearing=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTasteTestPie",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsHumble=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncTasteTestEverything",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsStrong=1.0x1",
+      "TUpIsAgliophobic=1.0x1",
+      "TUpIsFragile=1.0x1",
+      "TupIsImmunosuppressed=1.0x1",
+      "TUpIsIronStomach=1.0x1"
+      ],
+    "aLoots"  : [
+      "CTEncRandomInjury=1.0x1"
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncInheritanceGambleFail",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillGambling=1.0x1",
+      "TDnEncPokerFailChance=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncInheritanceGambleSuccess",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillGambling=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncInheritanceSave",
+    "aCOs"    : [
+      "TUpAge=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CGEncInheritanceBuy",
+    "aCOs"    : [
+      "TUpAge=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "ItmEncInheritanceBuy",
+    "aCOs"    : [
+      "ItmCargoWeb01Loose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x1",
+      "ItmCargoWeb01Loose=1.0x1"
+    ],
+    "aLoots"  : [      
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "CGEncInheritanceFun",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpSkillDance=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "ItmEncInheritanceFun",
+    "aCOs"    : [
+      "ItmTrencherNachoFiesta=1.0x1"
+    ],
+    "aLoots"  : [      
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "CGEncInheritanceFriends",
+    "aCOs"    : [
+      "TUpAge=1.0x1",
+      "TUpIsLoyal=1.0x1"
+      ],
+    "aLoots"  : [
+    ],
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "ItmEncInheritanceFriends",
+    "aCOs"    : [
+      "ItmOxygenCandle01=1.0x1"
+    ],
+    "aLoots"  : [      
+    ],
+    "strType" : "item"
+  }
+]
